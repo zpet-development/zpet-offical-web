@@ -1,0 +1,34 @@
+//first: butt
+//second: chast
+//3rd: head
+//4'th: snout
+//5th: nose
+//6,7: eyes
+var miceConf = {
+config:
+   {
+   numBalls : 2,
+   //maxFrame: 2
+   },
+ballz:[
+[
+ [
+  ['grey',0,0,0,40,'b'],
+  ['grey',20,20,0,40,'b'],
+ ],
+[
+  ['grey',0,0,0,40,'b'],
+  ['grey',20,20,0,40,'b'],
+ ],
+],[
+ [
+  ['grey',0,0,0,40,'b'],
+  ['grey',40,40,0,40,'b'],
+ ],
+[
+  ['grey',0,0,0,40,'b'],
+  ['grey',40,40,0,40,'b'],
+ ],
+],
+]
+}

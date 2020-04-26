@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html style="touch-action: none;">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>petGenerator</title>
+<style>
+.box{
+position:absolute;
+z-index:1;
+border: 3px ridge;
+padding:10px;
+background: white;
+width:100%;
+}
+</style>
+</head>
+<body>
+<div class='box'>
+Primary Color
+<input type='color' style='background-color: white;width:100px;height:24px; border-radius:5px;' onchange='c("0",this.value,0)' value='black'>
+<button style='background-image: url(textures/1.png);width:21px;height:21px;' onclick='c("0","#000","1")'></button>
+<button style='background-image: url(textures/2.png);width:21px;height:21px;' onclick='c("0","#000","2")'></button>
+<button style='background-image: url(textures/3.png);width:21px;height:21px;' onclick='c("0","#000","3")'></button>
+<button style='background-image: url(textures/4.png);width:21px;height:21px;' onclick='c("0","#000","4")'></button>
+<button style='background-image: url(textures/5.png);width:21px;height:21px;' onclick='c("0","#000","5")'></button>
+<button style='background-image: url(textures/6.png);width:21px;height:21px;' onclick='c("0","#000","6")'></button>
+<button style='background-image: url(textures/7.png);width:21px;height:21px;' onclick='c("0","#000","7")'></button>
+<button style='background-image: url(textures/8.png);width:21px;height:21px;' onclick='c("0","#000","8")'></button>
+<button style='background-image: url(textures/9.png);width:21px;height:21px;' onclick='c("0","#000","9")'></button>
+<button style='background-image: url(textures/10.png);width:21px;height:21px;' onclick='c("0","#000","10")'></button>
+<button style='background-image: url(textures/11.png);width:21px;height:21px;' onclick='c("0","#000","11")'></button>
+<button style='background-image: url(textures/12.png);width:21px;height:21px;' onclick='c("0","#000","12")'></button>
+<button style='background-image: url(textures/13.png);width:21px;height:21px;' onclick='c("0","#000","13")'></button>
+<button style='background-image: url(textures/14.png);width:21px;height:21px;' onclick='c("0","#000","14")'></button>
+<button style='background-image: url(textures/15.png);width:21px;height:21px;' onclick='c("0","#000","15")'></button>
+<button style='background-image: url(textures/16.png);width:21px;height:21px;' onclick='c("0","#000","16")'></button>
+<button style='background-image: url(textures/17.png);width:21px;height:21px;' onclick='c("0","#000","17")'></button>
+<button style='background-image: url(textures/18.png);width:21px;height:21px;' onclick='c("0","#000","18")'></button>
+<br>
+Secondary Color
+<input type='color' style='background-color: white;width:100px;height:24px; border-radius:5px;' onchange='c("1",this.value,0)' value='black'>
+<button style='background-image: url(textures/1.png);width:21px;height:21px;' onclick='c("1","#000","1")'></button>
+<button style='background-image: url(textures/2.png);width:21px;height:21px;' onclick='c("1","#000","2")'></button>
+<button style='background-image: url(textures/3.png);width:21px;height:21px;' onclick='c("1","#000","3")'></button>
+<button style='background-image: url(textures/4.png);width:21px;height:21px;' onclick='c("1","#000","4")'></button>
+<button style='background-image: url(textures/5.png);width:21px;height:21px;' onclick='c("1","#000","5")'></button>
+<button style='background-image: url(textures/6.png);width:21px;height:21px;' onclick='c("1","#000","6")'></button>
+<button style='background-image: url(textures/7.png);width:21px;height:21px;' onclick='c("1","#000","7")'></button>
+<button style='background-image: url(textures/8.png);width:21px;height:21px;' onclick='c("1","#000","8")'></button>
+<button style='background-image: url(textures/9.png);width:21px;height:21px;' onclick='c("1","#000","9")'></button>
+<button style='background-image: url(textures/10.png);width:21px;height:21px;' onclick='c("1","#000","10")'></button>
+<button style='background-image: url(textures/11.png);width:21px;height:21px;' onclick='c("1","#000","11")'></button>
+<button style='background-image: url(textures/12.png);width:21px;height:21px;' onclick='c("1","#000","12")'></button>
+<button style='background-image: url(textures/13.png);width:21px;height:21px;' onclick='c("1","#000","13")'></button>
+<button style='background-image: url(textures/14.png);width:21px;height:21px;' onclick='c("1","#000","14")'></button>
+<button style='background-image: url(textures/15.png);width:21px;height:21px;' onclick='c("1","#000","15")'></button>
+<button style='background-image: url(textures/16.png);width:21px;height:21px;' onclick='c("1","#000","16")'></button>
+<button style='background-image: url(textures/17.png);width:21px;height:21px;' onclick='c("1","#000","17")'></button>
+<button style='background-image: url(textures/18.png);width:21px;height:21px;' onclick='c("1","#000","18")'></button><br>
+Tertiary color
+<input type='color' style='background-color: white;width:100px;height:24px; border-radius:5px;' onchange='c("2",this.value,0)' value='black'>
+<button style='background-image: url(textures/1.png);width:21px;height:21px;' onclick='c("2","#000","1")'></button>
+<button style='background-image: url(textures/2.png);width:21px;height:21px;' onclick='c("2","#000","2")'></button>
+<button style='background-image: url(textures/3.png);width:21px;height:21px;' onclick='c("2","#000","3")'></button>
+<button style='background-image: url(textures/4.png);width:21px;height:21px;' onclick='c("2","#000","4")'></button>
+<button style='background-image: url(textures/5.png);width:21px;height:21px;' onclick='c("2","#000","5")'></button>
+<button style='background-image: url(textures/6.png);width:21px;height:21px;' onclick='c("2","#000","6")'></button>
+<button style='background-image: url(textures/7.png);width:21px;height:21px;' onclick='c("2","#000","7")'></button>
+<button style='background-image: url(textures/8.png);width:21px;height:21px;' onclick='c("2","#000","8")'></button>
+<button style='background-image: url(textures/9.png);width:21px;height:21px;' onclick='c("2","#000","9")'></button>
+<button style='background-image: url(textures/10.png);width:21px;height:21px;' onclick='c("2","#000","10")'></button>
+<button style='background-image: url(textures/11.png);width:21px;height:21px;' onclick='c("2","#000","11")'></button>
+<button style='background-image: url(textures/12.png);width:21px;height:21px;' onclick='c("2","#000","12")'></button>
+<button style='background-image: url(textures/13.png);width:21px;height:21px;' onclick='c("2","#000","13")'></button>
+<button style='background-image: url(textures/14.png);width:21px;height:21px;' onclick='c("2","#000","14")'></button>
+<button style='background-image: url(textures/15.png);width:21px;height:21px;' onclick='c("2","#000","15")'></button>
+<button style='background-image: url(textures/16.png);width:21px;height:21px;' onclick='c("2","#000","16")'></button>
+<button style='background-image: url(textures/17.png);width:21px;height:21px;' onclick='c("2","#000","17")'></button>
+<button style='background-image: url(textures/18.png);width:21px;height:21px;' onclick='c("2","#000","18")'></button>
+</div>
+<canvas class="illo" id="illo" style="touch-action: none; background-image: url(scenses/petgenerator.png); background-size: 100% 100%;position:absolute;z-index:-5"><b>ovo</b></canvas>
+<script src="zdog.dist.js"></script>
+<script src="dog/dog.bhd.js"></script>
+<script src="dog/sabertooth.lnz.js"></script>
+<script src="tape.js"></script>
+<script src='petgen.js'></script>
+
+</body>
+</html>
