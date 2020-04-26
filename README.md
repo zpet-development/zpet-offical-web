@@ -24,7 +24,6 @@ android: android 5 and above. make sure your browser is up to date!
 
 yes this game is still very new and you are not able to play at the moment. join our discord to keep up to date on when it will first launch!
 
-[![Discord server](https://discordapp.com/api/guilds/700292646186516530/embed.png?style=banner4)](https://discord.gg/700292646186516530)
 
 ### 5. can i contribute to this code?
 yes you can. feel free to fork it and edit the laravel to and submit a pull request
