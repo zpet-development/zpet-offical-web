@@ -10,7 +10,7 @@ This is the offical zpet.ml github. This is a pat game that gives you a bit of i
 Looks like the game leak isnt possibly enough... 😅. The game link is https://zpet.ml
 
 ### 2. How to play this game ?
-Playing this game is easy. this is a 2D game and allows a pet to be made the way you wanted (will give one on start) and you can have a pet them using a mouse or if you using tuchscreen is also allowed!
+Playing this game is easy. this is a 2D game and allows a pet to be made the way you wanted (will give one on start) and you can have a pet them using a mouse or if you using touchscreen is also allowed!
 
 ### 3. What is the minimum requirements for theis game ?
 This game requires basically just a browser and a device that is still supported.
